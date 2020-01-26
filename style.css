@@ -1,0 +1,50 @@
+div {
+  /* border: solid; */
+}
+
+ul{ 
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li{ 
+  font-size: 8pt;
+}
+
+.col { 
+  padding: 5px;
+}
+
+.card {
+  width: 100%;
+  background-color: #9be4f1;
+}
+
+
+.forecast-card {
+  background-color: rgb(91, 241, 241);
+  width: 140px;
+  padding: 10px;
+}
+
+.search-section {
+  height: 100%;
+}
+
+
+.cityList {
+  border: solid;
+  border-width: thin;
+  margin: 5px;
+  padding-left: 2px;
+  background-color: lightgrey;
+}
+
+.cityList:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.container {
+  margin-top: 5px;
+}
