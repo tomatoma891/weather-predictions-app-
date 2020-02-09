@@ -13,3 +13,4 @@ Windspeed
 
 
 Application uses icons to represent weather conditions. Application stores previously searched for cities in localstorage and displays them to the user. Application loads last searched city forecast on page load.
+Link to the live application :https://tomatoma891.github.io/weather-predictions-app-/
