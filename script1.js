@@ -5,7 +5,7 @@ $(document).ready(function () {
     let url = 'https://api.openweathermap.org/data/2.5/';
     let requestType = "";
     let query = "";
-
+    showHistory();
 
     // pull current location
     $('#getWeather,#past-cities').on('click', function () {
@@ -23,6 +23,7 @@ $(document).ready(function () {
         }
         if (test) { console.log('location:' + location); }
         if (location == "") return;
+
 
         updateCityStore(location);
         getCurWeather(location);
@@ -52,7 +53,6 @@ $(document).ready(function () {
         if (test) { console.log("getCurWeather - loc:", loc); }
         if (test) { console.log("getCurWeather - toloc:", typeof loc); }
 
-        showHistory();
         // clear search field
         $('#city-search').val("");
 
@@ -224,6 +224,8 @@ $(document).ready(function () {
             cityNameDiv.attr("value", city);
             cityNameDiv.text(city);
             $('#past-cities').append(cityNameDiv);
+            getCurWeather(city);
+
         });
     };
 
