@@ -4,6 +4,7 @@ A weather dashboard is application with search functionality to find current wea
 ![](images/currentcity.png)
 
 In this application user can search for weather reports by city using the openweathermap API. After searching for a city, the following information is displayed: 
+![](images/forecast.png)
 
 Current temperature
 Current humidity
